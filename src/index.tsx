@@ -1,19 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import Header from "./header";
+import Main from "./main";
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+export let test: string = "zzzzz";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const rootHeader = ReactDOM.createRoot(document.getElementById("header") as HTMLElement);
+const rootMain = ReactDOM.createRoot(document.getElementById("main") as HTMLElement);
+const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
+interface anyProps {
+	textWelcom: string;
+}
+rootHeader.render(
+	<div>
+		<Header className='sd' textWelcom='Оглавление' />
+	</div>
+);
+rootMain.render(
+	<div>
+		<Main text='' />
+	</div>
+);
