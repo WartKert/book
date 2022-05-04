@@ -1,0 +1,43 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.body {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+.body__header {
+	height: 11vh;
+	/* min-height: 100px; */
+	flex: 0 0 auto;
+	display: flex;
+}
+
+.body__main {
+	flex-basis: 60%;
+	display: flex;
+	flex-direction: row;
+}
+
+.body__aside {
+	flex-basis: 10%;
+}
+
+.body__aside_left {
+	order: 1;
+}
+
+.body__block {
+	order: 2;
+	flex-grow: 1;
+}
+.body__aside_right {
+	order: 3;
+}
+
+.body__footer {
+	flex-basis: 20%;
+}

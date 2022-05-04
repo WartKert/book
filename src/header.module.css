@@ -1,0 +1,29 @@
+.header {
+	/* max-height: 100%; */
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: row;
+	background-color: aquamarine;
+	/* align-items: stretch; */
+}
+
+.header__link {
+	display: flex;
+	flex: 0 1 auto;
+}
+
+.header__imageLogo {
+	/* width: 100%; */
+	height: 100%;
+	width: 100%;
+	min-width: 50px;
+	min-height: 50px;
+	object-fit: contain;
+}
+
+.header__text {
+	flex: 1 0 auto;
+	align-self: center;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	padding-left: 20px;
+}

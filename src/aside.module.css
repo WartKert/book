@@ -1,0 +1,13 @@
+.menu {
+	border: 6px solid red;
+	opacity: 1;
+	position: absolute;
+	top: auto;
+	height: 200px;
+	width: 200px;
+	transition: all 1s;
+}
+.menu_isHidden {
+	opacity: 0;
+	width: 0px;
+}
