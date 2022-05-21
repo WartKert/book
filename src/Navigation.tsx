@@ -46,7 +46,7 @@ export class RoutesNavigation extends React.Component<RoutesProps> {
 			<React.Fragment>
 				<Routes>
 					{Object.entries(this.props.objRoutes).map((item) => {
-						return <Route path={item[1].path} element={item[1].element} />;
+						return <Route path={item[1].path} element={item[1].element} key={item[0]} />;
 					})}
 				</Routes>
 			</React.Fragment>

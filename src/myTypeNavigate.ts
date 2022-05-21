@@ -10,4 +10,10 @@ export namespace navType {
 		to: LinkProps["to"];
 		text: string;
 	}
+
+	export interface arrIcon {
+		image: string;
+		to: LinkProps["to"];
+		text: string;
+	}
 }

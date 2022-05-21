@@ -1,0 +1,24 @@
+.article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	padding: 30px;
+	font-style: italic;
+	text-align: center;
+}
+
+.section {
+	padding: 15px;
+	text-align: justify;
+	text-indent: 30px;
+	word-break: keep-all;
+	line-height: 23px;
+	font-size: large;
+}
+
+.imgLogo {
+	margin: auto;
+}
