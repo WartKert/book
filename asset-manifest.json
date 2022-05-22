@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/book/static/css/main.214331d8.css",
+    "main.js": "/book/static/js/main.1a0f366d.js",
+    "static/media/ExPython_small.png": "/book/static/media/ExPython_small.f9ef9957b23c9272a59b.png",
+    "static/media/logo_672.png": "/book/static/media/logo_672.53c5277b811de6bf2b3a.png",
+    "index.html": "/book/index.html",
+    "main.214331d8.css.map": "/book/static/css/main.214331d8.css.map",
+    "main.1a0f366d.js.map": "/book/static/js/main.1a0f366d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.214331d8.css",
+    "static/js/main.1a0f366d.js"
+  ]
+}
