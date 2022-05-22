@@ -89,9 +89,6 @@ class Index extends React.Component<Props, State> {
 							<AsideLeft objLink={this.props.objLink!} objIcon={this.props.objIcon} />
 						</aside>
 						<aside id='asideRight' className={styles.body__aside + " " + styles.body__aside_right}></aside>
-						<div id='root' className={styles.body__block}>
-							{/* <MainNavigation objRoutes={this.props.objRoutes} toLink={this.state.link} /> */}
-						</div>
 					</HashRouter>
 				</main>
 				<footer id='footer' className={styles.body__footer}></footer>
